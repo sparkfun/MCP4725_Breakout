@@ -7462,8 +7462,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="4.7k"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="4.7k"/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
@@ -7479,16 +7479,17 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device=""/>
-<part name="U$1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value=""/>
+<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value=""/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="106.68" y="53.34" size="1.778" layer="91">I2C Address
-GND = 1100000 (Default)
-VCC - 1100001</text>
-<text x="172.72" y="10.16" size="1.778" layer="91">Joel Bartlett</text>
-<text x="238.76" y="7.62" size="1.778" layer="91">14</text>
+GND = 1100000 (0x60) (Default)
+VCC - 1100001 (0x61)</text>
+<text x="170.942" y="11.43" size="2.1844" layer="94">Joel Bartlett</text>
+<text x="238.76" y="7.62" size="2.1844" layer="94" ratio="9">14</text>
 </plain>
 <instances>
 <instance part="GND" gate="G$1" x="241.3" y="17.78"/>
@@ -7503,7 +7504,7 @@ VCC - 1100001</text>
 <instance part="JP2" gate="G$1" x="137.16" y="2.54"/>
 <instance part="JP3" gate="G$1" x="142.24" y="2.54"/>
 <instance part="U1" gate="G$1" x="101.6" y="93.98"/>
-<instance part="GND2" gate="1" x="109.22" y="66.04"/>
+<instance part="GND2" gate="1" x="96.52" y="68.58"/>
 <instance part="P+1" gate="1" x="124.46" y="78.74"/>
 <instance part="STANDOFF1" gate="G$1" x="137.16" y="12.7"/>
 <instance part="STANDOFF2" gate="G$1" x="142.24" y="12.7"/>
@@ -7511,9 +7512,10 @@ VCC - 1100001</text>
 <instance part="FRAME2" gate="G$2" x="147.32" y="0"/>
 <instance part="LOGO1" gate="G$1" x="121.92" y="10.16"/>
 <instance part="JP5" gate="G$1" x="172.72" y="91.44"/>
-<instance part="JP6" gate="G$1" x="170.18" y="73.66"/>
+<instance part="JP6" gate="G$1" x="63.5" y="93.98"/>
 <instance part="SJ1" gate="G$1" x="124.46" y="111.76" rot="R270"/>
-<instance part="U$1" gate="G$1" x="116.84" y="73.66" rot="R270"/>
+<instance part="SJ2" gate="G$1" x="116.84" y="73.66" rot="R270"/>
+<instance part="R3" gate="G$1" x="104.14" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -7524,6 +7526,9 @@ VCC - 1100001</text>
 <wire x1="83.82" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="VSS"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<junction x="83.82" y="93.98"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="88.9" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
@@ -7536,15 +7541,10 @@ VCC - 1100001</text>
 <pinref part="JP5" gate="G$1" pin="4"/>
 </segment>
 <segment>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="111.76" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="73.66" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="177.8" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
-<label x="180.34" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="71.12" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7568,7 +7568,7 @@ VCC - 1100001</text>
 <pinref part="P+1" gate="1" pin="VCC"/>
 <wire x1="121.92" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="73.66" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="177.8" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
@@ -7627,19 +7627,21 @@ VCC - 1100001</text>
 <wire x1="114.3" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="AO"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
 <segment>
-<wire x1="88.9" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
-<label x="81.28" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
-</segment>
-<segment>
-<wire x1="177.8" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
-<label x="180.34" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="SJ2" gate="G$1" pin="3"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
