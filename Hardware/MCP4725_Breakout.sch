@@ -7490,6 +7490,7 @@ GND = 1100000 (0x60) (Default)
 VCC - 1100001 (0x61)</text>
 <text x="170.942" y="11.43" size="2.1844" layer="94">Joel Bartlett</text>
 <text x="238.76" y="7.62" size="2.1844" layer="94" ratio="9">14</text>
+<text x="111.76" y="132.08" size="1.778" layer="91">Vcc = 2.7V to 5.5V</text>
 </plain>
 <instances>
 <instance part="GND" gate="G$1" x="241.3" y="17.78"/>

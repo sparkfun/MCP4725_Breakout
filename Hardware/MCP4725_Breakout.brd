@@ -147,11 +147,10 @@
 <text x="2.794" y="5.969" size="0.889" layer="21" ratio="15">SDA</text>
 <text x="2.794" y="8.509" size="0.889" layer="21" ratio="15">SCL</text>
 <text x="2.794" y="3.429" size="0.889" layer="21" ratio="15">VCC</text>
-<text x="2.794" y="13.5382" size="0.889" layer="21" ratio="15">OUT</text>
+<text x="2.8194" y="13.5636" size="0.889" layer="21" ratio="15">OUT</text>
 <text x="13.843" y="10.541" size="1.016" layer="21" ratio="15" rot="SR270">MCP4725</text>
 <text x="9.271" y="0.381" size="1.016" layer="16" font="vector" ratio="15" rot="SMR0">V14</text>
-<text x="5.588" y="5.6388" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270">I2C</text>
-<text x="5.588" y="3.4798" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270">ADDR</text>
+<text x="5.5372" y="4.5212" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270">ADDR</text>
 <text x="5.207" y="13.97" size="1.016" layer="22" ratio="15" rot="MR0" align="center-left">OUT</text>
 <text x="5.207" y="8.89" size="1.016" layer="22" ratio="15" rot="MR0" align="center-left">SCL</text>
 <text x="5.207" y="6.35" size="1.016" layer="22" ratio="15" rot="MR0" align="center-left">SDA</text>
@@ -163,6 +162,7 @@
 <text x="6.604" y="4.8768" size="0.762" layer="21" font="vector" ratio="15">GND</text>
 <text x="2.794" y="11.049" size="0.889" layer="21" ratio="15">GND</text>
 <text x="5.207" y="11.43" size="1.016" layer="22" ratio="15" rot="MR0" align="center-left">GND</text>
+<text x="52.07" y="-21.59" size="1.778" layer="51">Joel Bartlett</text>
 </plain>
 <libraries>
 <library name="SparkFun">
