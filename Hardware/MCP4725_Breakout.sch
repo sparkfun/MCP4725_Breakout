@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1770,20 +1770,6 @@ chip</description>
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
-<package name="FIDUCIAL-1.5X3">
-<circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
-<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="FIDUCIAL-1X2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<circle x="0" y="0" radius="0.9" width="1.27" layer="29"/>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="MICRO-FIDUCIAL">
-<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
-</package>
 </packages>
 <symbols>
 <symbol name="LOGO1">
@@ -1828,11 +1814,6 @@ chip</description>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2147,35 +2128,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FIDUCIAL" prefix="JP">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-Various fiducial points for machine vision alignment.</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1.5X3" package="FIDUCIAL-1.5X3">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1X2" package="FIDUCIAL-1X2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2591,6 +2543,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.0938" y="0" curve="-247.497204"/>
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
+</package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -6186,6 +6144,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -6220,6 +6183,25 @@ Standard 8.5x11 US Letter frame</description>
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7467,8 +7449,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
-<part name="JP2" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="U1" library="SparkFun-AnalogIC" deviceset="DAC_MCP4725" device="SOT-CP"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
@@ -7481,6 +7461,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device=""/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value=""/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -7502,8 +7484,6 @@ VCC - 1100001 (0x61)</text>
 <instance part="P+2" gate="1" x="124.46" y="119.38"/>
 <instance part="P+4" gate="1" x="152.4" y="99.06"/>
 <instance part="P+5" gate="1" x="86.36" y="99.06"/>
-<instance part="JP2" gate="G$1" x="137.16" y="2.54"/>
-<instance part="JP3" gate="G$1" x="142.24" y="2.54"/>
 <instance part="U1" gate="G$1" x="101.6" y="93.98"/>
 <instance part="GND2" gate="1" x="96.52" y="68.58"/>
 <instance part="P+1" gate="1" x="124.46" y="78.74"/>
@@ -7517,6 +7497,8 @@ VCC - 1100001 (0x61)</text>
 <instance part="SJ1" gate="G$1" x="124.46" y="111.76" rot="R270"/>
 <instance part="SJ2" gate="G$1" x="116.84" y="73.66" rot="R270"/>
 <instance part="R3" gate="G$1" x="104.14" y="73.66"/>
+<instance part="FID1" gate="G$1" x="137.16" y="5.08"/>
+<instance part="FID2" gate="G$1" x="142.24" y="5.08"/>
 </instances>
 <busses>
 </busses>
