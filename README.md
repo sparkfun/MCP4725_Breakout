@@ -1,9 +1,9 @@
 MCP4725_Breakout
 ================
-[![MCP4725_Breakout](https://cdn.sparkfun.com//assets/parts/1/9/2/7/08736-02a.jpg)  
-*Breakout Board for MCP4725 I2C DAC (BOB-08736)*](https://www.sparkfun.com/products/8736)
+[![MCP4725_Breakout](https://cdn.sparkfun.com//assets/parts/9/8/3/2/12918-01.jpg)  
+*Breakout Board for MCP4725 I2C DAC (BOB-12918)*](https://www.sparkfun.com/products/12918)
 
-This RN-52 Bluetooth from Roving Network is an audio module that provides a highly integrated solution for delivering high quality stereo audio in a small form factor with little difficulty.
+The MCP4725 is an I<sup>2</sup>C controlled Digital-to-Analog converter (DAC). It allows you to send an analog signal from a digital source.
 
 Repository Contents
 -------------------
@@ -12,9 +12,11 @@ Repository Contents
 
 Version History
 ---------------
-
+* [BOB-08736](https://www.sparkfun.com/products/8736) -Version 1.3. Now retired. 
 
 License Information
 -------------------
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
-All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
+The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+
+Distributed as-is; no warranty is given.
