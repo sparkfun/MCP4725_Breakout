@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCP4725_Breakout")(type "KiCad")(uri "$(KIPRJMOD)/MCP4725_Breakout.pretty")(options "")(descr ""))
+)
