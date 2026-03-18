@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|142135609|87107285|8df0926a-c26e-4f21-87f6-5d53a028aaaf|ea789ada-5c17-4bfa-9659-eba114b53209",
+          ""
+        ],
+        [
+          "courtyards_overlap|166255353|111225063|3ef236c5-9d56-443b-9a8b-96acc1cec2f7|548efcca-a306-4cac-ac56-42a93da0c4dd",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -475,7 +484,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MCP4725_Breakout.kicad_pro",
+    "filename": "MCP4725_Breakout_Qwiic.kicad_pro",
     "version": 3
   },
   "net_settings": {
