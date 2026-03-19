@@ -7,7 +7,7 @@
 	(title_block
 		(title "SparkFun I2C DAC - MCP4725")
 		(date "2026-03-13")
-		(rev "v10")
+		(rev "v20")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed By: Joel Bartlett")
 		(comment 2 "Revised By: Elias Santistevan")
@@ -3004,6 +3004,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 132.08) (xy 137.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032cf65d-49e1-4b3c-8c0d-5d25fc3b96ef")
+	)
+	(wire
+		(pts
 			(xy 58.42 149.86) (xy 59.69 149.86)
 		)
 		(stroke
@@ -3081,26 +3091,6 @@
 			(type solid)
 		)
 		(uuid "31195848-4c56-46e8-b174-d2ae68c20d5c")
-	)
-	(wire
-		(pts
-			(xy 139.7 135.89) (xy 139.7 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3bc2245f-b8e3-4287-bb97-b2865f64b531")
-	)
-	(wire
-		(pts
-			(xy 135.89 132.08) (xy 137.16 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4154581b-2c4e-4e74-a2a8-4c70f1f4bb81")
 	)
 	(wire
 		(pts
@@ -3194,16 +3184,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8b54954b-d22a-447a-8664-d3d11e46bdcb")
-	)
-	(wire
-		(pts
 			(xy 222.25 52.07) (xy 224.79 52.07)
 		)
 		(stroke
@@ -3274,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 134.62) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b60c96-b6b9-4876-8d99-127d436239df")
+	)
+	(wire
+		(pts
 			(xy 224.79 46.99) (xy 224.79 52.07)
 		)
 		(stroke
@@ -3331,6 +3321,16 @@
 			(type default)
 		)
 		(uuid "d9a842cb-effd-443c-81a2-335583aeccda")
+	)
+	(wire
+		(pts
+			(xy 139.7 128.27) (xy 139.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2127185-5f8d-4c4b-9ada-377673788c47")
 	)
 	(wire
 		(pts
@@ -3972,6 +3972,7 @@
 	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12")
 		(at 139.7 132.08 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3979,7 +3980,7 @@
 		(dnp no)
 		(uuid "07c2e5b0-4fbc-4258-aa62-5d918f54187f")
 		(property "Reference" "JP2"
-			(at 144.78 130.81 90)
+			(at 144.78 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3988,7 @@
 			)
 		)
 		(property "Value" "ADDR"
-			(at 144.78 133.35 90)
+			(at 144.78 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
