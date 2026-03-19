@@ -1865,7 +1865,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Jumper:SolderJumper_2_Open"
+		(symbol "SparkFun-Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1892,8 +1892,8 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Jumper:Jumper_2_NO"
-				(at 0 -3.302 0)
+			(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+				(at -0.254 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1902,7 +1902,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -6.35 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1910,8 +1910,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 -8.89 0)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1928,7 +1928,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1937,7 +1937,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -2011,7 +2022,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -2911,16 +2922,16 @@
 		(uuid "cb3bce06-70e5-4fe1-9207-a1c9f955a825")
 	)
 	(junction
-		(at 139.7 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f402546-68ed-4d84-9ba9-0b5805a6213f")
-	)
-	(junction
 		(at 223.52 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb315e5-2c8a-4b9d-bccb-86c17be643ec")
+	)
+	(junction
+		(at 139.7 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499e93af-c63a-48fb-8019-52bf512f3c05")
 	)
 	(polyline
 		(pts
@@ -2931,26 +2942,6 @@
 			(type dash)
 		)
 		(uuid "016a152c-7386-4d15-820e-72d644d5606f")
-	)
-	(wire
-		(pts
-			(xy 135.89 133.35) (xy 139.7 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "032cf65d-49e1-4b3c-8c0d-5d25fc3b96ef")
-	)
-	(wire
-		(pts
-			(xy 139.7 133.35) (xy 139.7 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ad2c26-5caf-4eff-8649-3c4a1992826b")
 	)
 	(wire
 		(pts
@@ -3164,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9acccb9d-dcaa-4c9a-b3a5-e1ce119d65c3")
+	)
+	(wire
+		(pts
 			(xy 223.52 49.53) (xy 223.52 63.5)
 		)
 		(stroke
@@ -3174,13 +3175,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 140.97) (xy 139.7 139.7)
+			(xy 139.7 134.62) (xy 139.7 135.89)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "bb456d10-b58d-49ba-8de5-68a19c893ee8")
+		(uuid "b7557275-c8c2-41c6-88bc-3c6727687c6f")
 	)
 	(wire
 		(pts
@@ -3191,16 +3192,6 @@
 			(type solid)
 		)
 		(uuid "c247b317-bae3-4f7b-bfd0-a1f385e8c842")
-	)
-	(wire
-		(pts
-			(xy 139.7 132.08) (xy 139.7 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b60c96-b6b9-4876-8d99-127d436239df")
 	)
 	(wire
 		(pts
@@ -3251,6 +3242,16 @@
 			(type solid)
 		)
 		(uuid "d1326bd2-adf4-4bc2-a02f-10b4ed3f294a")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7b9b0ef-37cf-48b0-8a93-d5b8a08e8361")
 	)
 	(wire
 		(pts
@@ -3313,7 +3314,7 @@
 		(column_widths 10.16 20.32)
 		(row_heights 2.54 2.54 2.54 0 0 0 0 0 0 0 0)
 		(cells
-			(table_cell "Pin"
+			(table_cell "ADDR"
 				(exclude_from_sim no)
 				(at 124.46 102.87 0)
 				(size 10.16 2.54)
@@ -3347,7 +3348,7 @@
 				)
 				(uuid "ac28dd39-7a09-4e89-9b36-7342bbf0b47e")
 			)
-			(table_cell "GND"
+			(table_cell "CLOSED"
 				(exclude_from_sim no)
 				(at 124.46 105.41 0)
 				(size 10.16 2.54)
@@ -3381,7 +3382,7 @@
 				)
 				(uuid "5ed3b476-fa23-4786-a7bb-d123c46a3859")
 			)
-			(table_cell "VDD"
+			(table_cell "OPEN"
 				(exclude_from_sim no)
 				(at 124.46 107.95 0)
 				(size 10.16 2.54)
@@ -3821,28 +3822,6 @@
 			)
 		)
 	)
-	(global_label "ADDR"
-		(shape input)
-		(at 135.89 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f2d9c2f-ce56-4252-8ca4-c8bd57213233")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0062 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 224.79 54.61 0)
@@ -3861,6 +3840,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR"
+		(shape input)
+		(at 135.89 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4c4e33a-e976-4e3b-9976-9bc9c61b157e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0062 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4103,7 +4104,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 139.7 137.16 270)
+		(at 139.7 129.54 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4112,7 +4113,7 @@
 		(dnp no)
 		(uuid "298b29f9-a4c8-4702-aaf0-d5746ee3c99e")
 		(property "Reference" "R1"
-			(at 142.24 135.89 90)
+			(at 143.51 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4121,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 142.24 138.43 90)
+			(at 143.51 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 135.382 137.16 0)
+			(at 135.382 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 130.81 137.16 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4147,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 137.16 0)
+			(at 128.27 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4156,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 133.35 137.16 0)
+			(at 133.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,76 +4253,6 @@
 			(project ""
 				(path "/bf35e96c-ec8b-4540-83a4-3cc6df170383"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_2_Open")
-		(at 139.7 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57b02195-eacf-4fbb-87cc-3edf1e5607f5")
-		(property "Reference" "JP2"
-			(at 142.24 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ADDR"
-			(at 142.24 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_NO"
-			(at 143.002 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 148.59 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89e24b41-2de6-4cc4-8f13-2a60a061ea27")
-		)
-		(pin "1"
-			(uuid "3a4eb98f-3eb2-4b64-8551-524a04c7063b")
-		)
-		(instances
-			(project ""
-				(path "/bf35e96c-ec8b-4540-83a4-3cc6df170383"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -5489,6 +5420,76 @@
 			(project ""
 				(path "/bf35e96c-ec8b-4540-83a4-3cc6df170383"
 					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 139.7 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd94e5e-55b7-45e0-8f54-cb6180ca3a86")
+		(property "Reference" "JP2"
+			(at 142.24 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ADDR"
+			(at 142.24 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 144.272 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb290ffa-b00e-47c2-859f-15a6b6ee0ccb")
+		)
+		(pin "1"
+			(uuid "cf56272c-18ec-4ed9-a6f6-483742e4424b")
+		)
+		(instances
+			(project ""
+				(path "/bf35e96c-ec8b-4540-83a4-3cc6df170383"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
