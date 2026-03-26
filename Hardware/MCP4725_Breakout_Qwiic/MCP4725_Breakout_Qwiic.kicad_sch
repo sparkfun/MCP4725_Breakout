@@ -4122,7 +4122,7 @@
 				)
 				(uuid "ac28dd39-7a09-4e89-9b36-7342bbf0b47e")
 			)
-			(table_cell "Open"
+			(table_cell "Closed"
 				(exclude_from_sim no)
 				(at 124.46 105.41 0)
 				(size 10.16 2.54)
@@ -4156,7 +4156,7 @@
 				)
 				(uuid "5ed3b476-fa23-4786-a7bb-d123c46a3859")
 			)
-			(table_cell "Closed"
+			(table_cell "Open"
 				(exclude_from_sim no)
 				(at 124.46 107.95 0)
 				(size 10.16 2.54)

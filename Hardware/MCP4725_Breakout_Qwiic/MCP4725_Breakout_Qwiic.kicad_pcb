@@ -6724,6 +6724,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6736,6 +6737,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6840,6 +6842,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6852,6 +6855,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7974,6 +7978,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7986,6 +7991,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8852,7 +8858,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "090ce7da-056c-429f-bb0f-6f80d2e56ac7")
 		(pts
 			(xy 143.3195 89.535) (xy 143.3195 86.995)
@@ -8878,7 +8884,7 @@
 		)
 		(gr_text "0.1"
 			(at 134.486 88.265 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "090ce7da-056c-429f-bb0f-6f80d2e56ac7")
 			(effects
 				(font
@@ -8890,7 +8896,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "3c38fbed-7516-4ebc-b727-d8e456879d9b")
 		(pts
 			(xy 152.4 88.265) (xy 140.97 88.38)
@@ -8916,7 +8922,7 @@
 		)
 		(gr_text "0.45"
 			(at 146.685 80.892 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "3c38fbed-7516-4ebc-b727-d8e456879d9b")
 			(effects
 				(font
@@ -8928,7 +8934,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "57a18ff2-08da-4454-b768-dd12c2a5c9d5")
 		(pts
 			(xy 166.37 112.395) (xy 161.4375 99.695)
@@ -8954,7 +8960,7 @@
 		)
 		(gr_text "0.5"
 			(at 172.205 106.045 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "57a18ff2-08da-4454-b768-dd12c2a5c9d5")
 			(effects
 				(font
@@ -8966,7 +8972,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "797fa01c-1b71-429e-8d77-2e4dbb548f11")
 		(pts
 			(xy 153.67 99.695) (xy 140.97 99.695)
@@ -8992,7 +8998,7 @@
 		)
 		(gr_text "0.5"
 			(at 147.32 123.818 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "797fa01c-1b71-429e-8d77-2e4dbb548f11")
 			(effects
 				(font
@@ -9004,7 +9010,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "8b93f9f5-cdf0-4d30-a597-c8fe852dbb09")
 		(pts
 			(xy 143.51 89.535) (xy 140.97 89.535)
@@ -9030,7 +9036,7 @@
 		)
 		(gr_text "0.1"
 			(at 142.24 83.813 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "8b93f9f5-cdf0-4d30-a597-c8fe852dbb09")
 			(effects
 				(font
@@ -9042,7 +9048,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "94d0fd09-5950-4571-b750-8047c6aa05bd")
 		(pts
 			(xy 143.51 89.535) (xy 143.51 109.855)
@@ -9068,7 +9074,7 @@
 		)
 		(gr_text "0.8"
 			(at 134.486 99.695 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "94d0fd09-5950-4571-b750-8047c6aa05bd")
 			(effects
 				(font
@@ -9080,7 +9086,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "ae0d82a8-d936-4f8c-8650-6cdb70119d42")
 		(pts
 			(xy 140.97 86.995) (xy 140.97 112.395)
@@ -9106,7 +9112,7 @@
 		)
 		(gr_text "1"
 			(at 131.819 99.695 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "ae0d82a8-d936-4f8c-8650-6cdb70119d42")
 			(effects
 				(font
@@ -9118,7 +9124,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "c577a723-189c-44ff-8293-ff958395bee5")
 		(pts
 			(xy 140.97 86.995) (xy 166.37 86.995)
@@ -9144,7 +9150,7 @@
 		)
 		(gr_text "1"
 			(at 153.67 78.225 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "c577a723-189c-44ff-8293-ff958395bee5")
 			(effects
 				(font
@@ -9156,10 +9162,10 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "d9b5bef5-09d2-4411-8df8-e263ff131b80")
 		(pts
-			(xy 149.86 111.125) (xy 140.97 111.125)
+			(xy 147.32 111.125) (xy 140.97 111.125)
 		)
 		(height 8.509)
 		(orientation 0)
@@ -9180,9 +9186,9 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.35"
-			(at 145.415 118.484 0)
-			(layer "User.1")
+		(gr_text "0.25"
+			(at 144.145 118.484 0)
+			(layer "Dwgs.User")
 			(uuid "d9b5bef5-09d2-4411-8df8-e263ff131b80")
 			(effects
 				(font
@@ -9202,7 +9208,7 @@
 		(uuid "043e8719-6dd2-49ff-a6cd-3ffe98fc1daa")
 	)
 	(via
-		(at 165.735 103.8225)
+		(at 165.4175 103.8225)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9247,7 +9253,7 @@
 		(uuid "2a059f25-f037-4529-a7da-1a58dd53ec4b")
 	)
 	(via
-		(at 141.605 103.8225)
+		(at 141.9225 103.8225)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9292,7 +9298,7 @@
 		(uuid "4910cac3-d286-45e7-a02c-70c10f02c3a6")
 	)
 	(via
-		(at 141.605 95.5675)
+		(at 141.9225 95.5675)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9301,7 +9307,7 @@
 		(uuid "4ce9d444-6237-4dcd-ac3a-f5b311289ddb")
 	)
 	(via
-		(at 141.605 106.9975)
+		(at 141.9225 106.9975)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9355,7 +9361,7 @@
 		(uuid "86c37a88-55e8-443e-b22a-33d8ef103fb0")
 	)
 	(via
-		(at 165.735 95.5675)
+		(at 165.4175 95.5675)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9373,7 +9379,7 @@
 		(uuid "9e29a479-ae67-4c36-97ea-cbf282988d95")
 	)
 	(via
-		(at 141.605 92.3925)
+		(at 141.9225 92.3925)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9391,7 +9397,7 @@
 		(uuid "c75dcb50-bc21-49d3-b3a1-3f7ed5d16fc3")
 	)
 	(via
-		(at 165.735 106.9975)
+		(at 165.4175 106.9975)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9409,7 +9415,7 @@
 		(uuid "daa0a7f3-a0b8-4c35-b5f8-a1dcd4fd2b3b")
 	)
 	(via
-		(at 165.4175 92.71)
+		(at 165.4175 92.3925)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
