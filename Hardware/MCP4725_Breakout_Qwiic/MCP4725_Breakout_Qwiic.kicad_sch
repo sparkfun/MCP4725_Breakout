@@ -2103,8 +2103,8 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" ""
-				(at 0 0 0)
+			(property "PROD_ID" "IC-08886"
+				(at 0 -27.178 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7217,7 +7217,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "IC-08886"
 			(at 86.36 57.15 0)
 			(effects
 				(font
