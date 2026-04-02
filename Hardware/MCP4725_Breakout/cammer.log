@@ -1,0 +1,19 @@
+2026-04-02 09:03:16,308 - cammer_logger - INFO - Running CAMmer
+2026-04-02 09:03:16,309 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2026-04-02 09:03:16,310 - cammer_logger - INFO - CAMMER START: 2026-04-02T09:03:16.310273
+2026-04-02 09:03:20,140 - cammer_logger - INFO - 
+START: 2026-04-02T09:03:16.310265
+Board saved by user.
+Zones filled by CAMmer.
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-F_Cu.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GTL
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-B_Cu.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GBL
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-F_Paste.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GTP
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-B_Paste.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GBP
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-F_Silkscreen.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GTO
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-B_Silkscreen.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GBO
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-F_Mask.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GTS
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-B_Mask.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GBS
+Renaming /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout-Edge_Cuts.gbr to /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/MCP4725_Breakout.GKO
+Drill report: /home/spark/SparkFun/MCP4725_Breakout/Hardware/MCP4725_Breakout/drill_report.rpt
+
+2026-04-02 09:03:21,492 - cammer_logger - INFO - CAMmer complete

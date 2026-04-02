@@ -1,0 +1,24 @@
+Drill report for MCP4725_Breakout.kicad_pcb
+Created on 2026-04-02T09:03:20-0600
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'MCP4725_Breakout.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (21 holes)
+    T2  1.016mm  0.0400"  (6 holes)
+
+    Total plated holes count 27
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T3  3.100mm  0.1220"  (2 holes)
+
+    Total unplated holes count 2
